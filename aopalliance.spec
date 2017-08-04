@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}aopalliance
 Version:        1.0
-Release:        14.1%{?dist}
+Release:        14.2%{?dist}
 Epoch:          0
 Summary:        Java/J2EE AOP standards
 License:        Public Domain
@@ -56,6 +56,9 @@ jar umf %{SOURCE2} build/%{pkg_name}.jar
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:1.0-14.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:1.0-14.1
 - Automated package import and SCL-ization
 
